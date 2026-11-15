@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Postcard - New York (Places)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="postcard">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="food.html">Food</a>
+            <a href="tips.html">Travel Tips</a>
+            <a href="places.html" class="active">Places</a>
+        </nav>
+
+        <header>
+            <h1>🗽 Iconic New York Places</h1>
+            <p>Must-See Landmarks & Attractions</p>
+        </header>
+
+        <!-- Main Hero Image -->
+        <section class="hero">
+            <img 
+            src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" 
+            alt="New York City Skyline">
+        </section>
+
+        <!-- Places Intro -->
+        <section class="intro">
+            <h2>🏙️ Explore the Landmarks</h2>
+            <p>
+                From the bright lights of Times Square to the peaceful greens of Central Park, New York is filled with world-famous sights.
+            </p>
+        </section>
+
+        <!-- Places Table -->
+        <section class="travel-info">
+            <h2>🗺️ Top Attractions</h2>
+            <table>
+                <tr>
+                    <th>Attraction</th>
+                    <th>Location</th>
+                    <th>Highlight</th>
+                </tr>
+                <tr>
+                    <td>Central Park</td>
+                    <td>Manhattan</td>
+                    <td>843 acres of scenic lakes, walking paths, and trees</td>
+                </tr>
+                <tr>
+                    <td>Times Square</td>
+                    <td>Midtown Manhattan</td>
+                    <td>Famous for brilliant neon billboards and Broadway theaters</td>
+                </tr>
+                <tr>
+                    <td>Statue of Liberty</td>
+                    <td>New York Harbor</td>
+                    <td>Global symbol of freedom and democracy</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="fun-fact">
+            <h2>✨ Sightseeing Tip!</h2>
+            <p>Click below for a smart tip on exploring NYC landmarks:</p>
+            <button onclick="showPlacesTip()">Sightseeing Tip</button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ for Travel Lovers</p>
+            <p>Explore. Dream. Discover.</p>
+        </footer>
+    </div>
+
+    <script>
+        function showPlacesTip() {
+            window.alert(
+                "Sightseeing Tip: Visit Central Park early in the morning for quiet paths and the best photography lighting!"
+            );
+            console.log("Places tip button was clicked!");
+        }
+    </script>
+
+</body>
+</html>
