@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Postcard - New York (Food)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="postcard">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="food.html" class="active">Food</a>
+            <a href="tips.html">Travel Tips</a>
+        </nav>
+
+        <header>
+            <h1>🍕 Taste of New York</h1>
+            <p>Iconic Street Food & Classic NYC Eats</p>
+        </header>
+
+        <!-- Main Image -->
+        <section class="hero">
+            <img 
+            src="https://images.unsplash.com/photo-1513104890138-7c749659a591" 
+            alt="New York Style Pizza">
+        </section>
+
+        <!-- Food Intro -->
+        <section class="intro">
+            <h2>🥯 Must-Try New York Dishes</h2>
+            <p>
+                New York is a global food capital where you can grab a $1.50 pizza slice on the corner or enjoy world-famous bakery classics.
+            </p>
+        </section>
+
+        <!-- Food Table -->
+        <section class="travel-info">
+            <h2>🍽️ Famous Local Foods</h2>
+            <table>
+                <tr>
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Average Price</th>
+                </tr>
+                <tr>
+                    <td>NY-Style Pizza</td>
+                    <td>Large, hand-tossed thin crust with foldable slices</td>
+                    <td>$3 – $5 / slice</td>
+                </tr>
+                <tr>
+                    <td>NYC Bagels</td>
+                    <td>Boiled and baked chewy bagels served with cream cheese</td>
+                    <td>$4 – $8</td>
+                </tr>
+                <tr>
+                    <td>New York Cheesecake</td>
+                    <td>Rich, dense, and creamy dessert made with cream cheese</td>
+                    <td>$7 – $10</td>
+                </tr>
+                <tr>
+                    <td>Street Cart Hot Dogs</td>
+                    <td>Classic all-beef hot dogs topped with mustard and sauerkraut</td>
+                    <td>$3 – $5</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="fun-fact">
+            <h2>✨ Foodie Recommendation!</h2>
+            <p>Want to know the secret behind authentic New York pizza and bagels?</p>
+            <button onclick="showFoodTip()">Foodie Secret</button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ for Travel Lovers</p>
+            <p>Explore. Dream. Discover.</p>
+        </footer>
+    </div>
+
+    <script>
+        function showFoodTip() {
+            window.alert(
+                "Foodie Secret: Locals swear that New York City's tap water gives its pizza crust and bagels their signature texture and flavor!"
+            );
+            console.log("Foodie Secret button was clicked!");
+        }
+    </script>
+
+</body>
+</html>
