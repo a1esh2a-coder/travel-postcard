@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Postcard - New York (Travel Tips)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="postcard">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="food.html">Food</a>
+            <a href="tips.html" class="active">Travel Tips</a>
+        </nav>
+
+        <header>
+            <h1>🧭 New York Travel Tips</h1>
+            <p>Smart Advice for First-Time Visitors</p>
+        </header>
+
+        <!-- Main Image -->
+        <section class="hero">
+            <img 
+            src="https://images.unsplash.com/photo-1534430480872-3498386e7856" 
+            alt="New York Yellow Cabs and Street">
+        </section>
+
+        <!-- Intro -->
+        <section class="intro">
+            <h2>💡 Essential Know-Before-You-Go Tips</h2>
+            <p>
+                Navigating a massive city like New York is easy once you know how the subway, walking blocks, and local etiquette work.
+            </p>
+        </section>
+
+        <!-- Tips Table -->
+        <section class="travel-info">
+            <h2>📋 Quick Travel Guide</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Tip</th>
+                </tr>
+                <tr>
+                    <td>Subway & Transit</td>
+                    <td>Use contactless tap-to-pay (OMNY) with your card or phone at subway turnstiles—no paper MetroCard needed.</td>
+                </tr>
+                <tr>
+                    <td>Best Time to Visit</td>
+                    <td>April–June and September–November offer mild weather and smaller crowds.</td>
+                </tr>
+                <tr>
+                    <td>Walking & Footwear</td>
+                    <td>Pack comfortable walking shoes; you will easily walk 15,000+ steps a day exploring Manhattan.</td>
+                </tr>
+                <tr>
+                    <td>Tipping Etiquette</td>
+                    <td>Standard tipping at sit-down restaurants and for taxi drivers is 15% to 20%.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="fun-fact">
+            <h2>✨ Safety & Navigation Reminder!</h2>
+            <p>Click below for an important street-smart tip in NYC:</p>
+            <button onclick="showTravelAlert()">Safety Reminder</button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with ❤️ for Travel Lovers</p>
+            <p>Explore. Dream. Discover.</p>
+        </footer>
+    </div>
+
+    <script>
+        function showTravelAlert() {
+            window.alert(
+                "Travel Reminder: Never stop suddenly in the middle of a busy NYC sidewalk—step aside near a building so pedestrian traffic can flow smoothly!"
+            );
+            console.log("Safety Reminder button was clicked!");
+        }
+    </script>
+
+</body>
+</html>
